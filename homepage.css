@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: black;
 }
 
 
@@ -7,6 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 38px;
+ 
 }
 
 .leftSide {
@@ -32,18 +34,27 @@ body {
  }
 
  .navLink:hover {
-     border-bottom: 1px solid black;
+     border-bottom: 1px solid white;
  }
 
  .navLink a:hover {
-    color: black;
+    color: white;
 }
 
-/* .sticky {
+.active-navLink{
+    border-bottom: 1px solid white;
+}
+
+
+.active-navLink a{
+    color:white !important;
+}
+
+.sticky {
     position: fixed;
     top: 0;
     width: 100%;
-} */ 
+}
 
 
 /* home page */ 
@@ -61,6 +72,12 @@ body {
 }
 
 .profileContent h1 {
-    font-size: xx-large;
-    color: lightpink;
+    font-size: 75px;
+    color: lightseagreen;
 }
+
+.profileContent p {
+    font-size: 25px;
+    color: white;
+}
+
