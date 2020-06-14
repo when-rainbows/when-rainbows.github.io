@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: black;
+    background-color: #323232;
 }
 
 
@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 38px;
+    background-color: #323232;
  
 }
 
@@ -28,9 +29,13 @@ body {
 }
 
 .navLink a{
-    color: #8a8a8a;
+    color: lightseagreen;
     text-decoration: none;
     transition: color .05s;
+ }
+
+ .brand {
+     color: lightseagreen;
  }
 
  .navLink:hover {
