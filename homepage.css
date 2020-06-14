@@ -86,3 +86,10 @@ body {
     color: white;
 }
 
+.profileContent{
+    padding-top: 150px;
+}
+
+.resume{
+    height: fit-content;
+}
