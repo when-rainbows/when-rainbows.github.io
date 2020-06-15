@@ -127,3 +127,7 @@ body {
  .description a:hover {
     color: lightseagreen;
 }
+
+.workaround{
+    padding-top: 30px;
+}
