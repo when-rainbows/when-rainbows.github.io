@@ -90,6 +90,20 @@ body {
     padding-top: 150px;
 }
 
+/*resume */
+
 .resume{
     height: fit-content;
+}
+
+/* portfolio */ 
+
+.heading{
+    padding-left: 38px;
+    color: lightseagreen;
+    font-size: large;
+}
+
+.video {
+    padding-left: 38px;
 }
