@@ -9,6 +9,7 @@ body {
     justify-content: space-between;
     padding: 38px;
     background-color: #323232;
+    font-family: "Quicksand", sans-serif;
  
 }
 
@@ -79,11 +80,13 @@ body {
 .profileContent h1 {
     font-size: 75px;
     color: lightseagreen;
+    font-family: "Montserrat", sans-serif;
 }
 
 .profileContent p {
     font-size: 25px;
     color: white;
+    font-family: "Crimson Text", serif;
 }
 
 .profileContent{
@@ -103,10 +106,12 @@ body {
     padding-left: 38px;
     color: lightseagreen;
     font-size: 50px;
+    font-family: "Montserrat", sans-serif;
 }
 .descriptionTitle {
-    color: lightseagreen;
+    color: lightgray;
     font-size: 40px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .description {
@@ -114,11 +119,14 @@ body {
     padding-right: 250px;
     font-size: 30px;
     color: white;
+    font-family: "Crimson Text",serif;
+    
 }
 
 .description a{
     font-size: 30px;
     color: white;
+    font-family: "Crimson Text", serif;
 }
  .description a:hover {
      border-bottom: 1px solid lightseagreen;
@@ -138,10 +146,12 @@ body {
     text-align: center;
     font-size: 50px;
     color: lightseagreen;
+    font-family: "Montserrat", sans-serif;
 }
 
 .contactInformation p {
     text-align: center;
     font-size: 40px;
     color: white;
+    font-family: "Crimson Text", serif;
 }
