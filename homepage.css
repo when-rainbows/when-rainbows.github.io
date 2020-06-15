@@ -104,3 +104,26 @@ body {
     color: lightseagreen;
     font-size: 50px;
 }
+.descriptionTitle {
+    color: lightseagreen;
+    font-size: 40px;
+}
+
+.description {
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 30px;
+    color: white;
+}
+
+.description a{
+    font-size: 30px;
+    color: white;
+}
+ .description a:hover {
+     border-bottom: 1px solid lightseagreen;
+ }
+
+ .description a:hover {
+    color: lightseagreen;
+}
