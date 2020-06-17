@@ -11,6 +11,7 @@
     </head>
         <body>  
             <div class="container">
+                <div id="navbar">
                 <div class="navBar">
                     <div class="leftSide"> 
                         <div class="navLink">
@@ -31,11 +32,35 @@
                             <div> KYLE MEADE </div>
                         </div>
                     </div>
-                </div>  
-            <div class="content"></div>
-                <div class="resume">
-                    <embed src="images/Media Resume.pdf" type="application/pdf" Style =" width: 100%; height: 900px"></embed>
+                </div>
+            </div>  
+            <div class="content">
+              
+                <div class="resume" style="text-align: center;">
+                    <img src="images/Kyle Meade.jpg" width="50%" height="50%">
                 </div>
             </div>
+            </div> 
+            <script> 
+               
+                window.onscroll = function() {myFunction()};
+    
+            
+                var navBar = document.getElementById("navbar");
+    
+    
+                var sticky = navbar.offsetTop;
+    
+                function myFunction() {
+                    if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky")
+                    } else {
+                        navbar.classList.remove("sticky");
+                    }
+                }
+    
+                
+    
+            </script>
         </body>
 </html>
