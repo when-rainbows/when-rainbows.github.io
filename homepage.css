@@ -98,7 +98,8 @@ body {
 
 .resume{
     height: fit-content;
-    padding-top: 100px;
+   /* padding-top: 100px;
+    padding-bottom: 50px;*/
 
 }
 
@@ -144,16 +145,58 @@ body {
 
 /* conatact page */ 
 
+.contactInformation{
+    padding-left: 38px;
+}
+
+.email{
+    display: flex;
+    
+}
+
+.Insta{
+    display: flex;
+}
+
+
 .contactInformation h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     color: lightseagreen;
     font-family: "Montserrat", sans-serif;
 }
 
 .contactInformation p {
-    text-align: center;
+    margin-left: 15px;
+    position: relative;
+    bottom: 20px;
     font-size: 40px;
     color: white;
     font-family: "Crimson Text", serif;
 }
+.email a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+.email a:hover {
+    border-bottom: 1px solid lightseagreen;
+}
+
+.email a:hover {
+   color: lightseagreen;
+}
+
+.Insta a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+.Insta a:hover {
+    border-bottom: 1px solid lightseagreen;
+}
+
+.Insta a:hover {
+   color: lightseagreen;
