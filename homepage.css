@@ -19,7 +19,7 @@ body {
 
 .navBar > .leftSide > div {
     margin-right: 20px;
-    font-size: 0.9em;
+    font-size: 1em;
     text-transform: uppercase;
 }
 
@@ -37,6 +37,7 @@ body {
 
  .brand {
      color: lightseagreen;
+     font-size: 1em;
  }
 
  .navLink:hover {
