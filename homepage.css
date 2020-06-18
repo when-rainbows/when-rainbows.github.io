@@ -201,3 +201,22 @@ body {
 
 .Insta a:hover {
    color: lightseagreen;
+}
+
+.LinkedIn{
+    display: flex;
+}
+
+.LinkedIn a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+.LinkedIn a:hover {
+    border-bottom: 1px solid lightseagreen;
+}
+
+.LinkedIn a:hover {
+   color: lightseagreen;
+}
