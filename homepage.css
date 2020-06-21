@@ -122,6 +122,9 @@ td {
 
 }
 
+.heading > a {
+    opacity: 0;
+}
 
 .heading{
     padding-left: 38px;
@@ -147,16 +150,17 @@ td {
     
 }
 
-.description a{
-    font-size: 30px;
-    color: white;
-    font-family: "Crimson Text", serif;
+.descriptionTitle a{
+    text-decoration: none;
+    border-bottom: transparent;
+    color: lightgray;
+    
 }
- .description a:hover {
+ .descriptionTitle a:hover {
      border-bottom: 1px solid lightseagreen;
  }
 
- .description a:hover {
+ .descriptionTitle a:hover {
     color: lightseagreen;
 }
 
@@ -164,6 +168,12 @@ td {
 .workaround{
     padding-top: 30px;
 }
+
+.blankspace{
+    padding-bottom: 30px;
+}
+
+
 
 /* conatact page */ 
 
