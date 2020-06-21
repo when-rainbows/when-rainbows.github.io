@@ -106,22 +106,43 @@ body {
 
 /* portfolio */ 
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+
+}
+
+tr{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td {
+    text-align: left;
+    vertical-align: top;
+
+}
+
+
 .heading{
     padding-left: 38px;
     color: lightseagreen;
     font-size: 50px;
     font-family: "Montserrat", sans-serif;
-}
-.descriptionTitle {
-    color: lightgray;
-    font-size: 40px;
-    font-family: "Montserrat", sans-serif;
+    
+
 }
 
+.descriptionTitle {
+    color: lightgray;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+}
+
+    
+
 .description {
-    padding-left: 250px;
-    padding-right: 250px;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     font-family: "Crimson Text",serif;
     
@@ -139,6 +160,7 @@ body {
  .description a:hover {
     color: lightseagreen;
 }
+
 
 .workaround{
     padding-top: 30px;
