@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" type = "text/css" href = "homepage.css">
+        <meta charset ="utf-8"/>
+        <title> About Me</title>
+    </head>
+        <body>  
+            <div class="container">
+               <div id="navbar">
+                <div class="navBar">
+                    <div class="leftSide"> 
+                        <div class="navLink">
+                            <a href = "index.html">Home</a>
+                        </div>
+                        <div class="navLink">
+                            <div class="dropdown">
+                                <div class="portDiv">
+                            <li><a href = "#">Portfolio</a></li> </div>
+                                <ul>
+                                    <li> <a href="videoediting.html"> Video Editing </a></li>
+                                    <li> <a href="audioEditing.html"> Audio Editing </a></li>
+                                    <li> <a href="graphicDesign.html"> Graphic Design </a></li>
+                                   <!-- <li> <a href="photography.html"> Photography </a></li> -->
+                                </ul> 
+                            </div>
+                        </div>
+                        <div class="navLink">
+                            <a href = "resume.html">Resume</a>
+                        </div>
+                        <div class="navLink">
+                            <a href = "contact.html">Contact</a>
+                        </div>
+                    </div>
+                    <div class="rightSide">
+                        <div class="brand">
+                            <div> KYLE MEADE </div>
+                        </div>
+                    </div>
+                </div>  
+               </div>
+
+               
+               <div class="heading">
+                <a name="Audio">hello</a>
+                <h1>
+                    
+                    Audio Editing
+                </h1>
+            </div>
+
+            <div class="audio" >
+                <table width = "1280">
+                    <tr>
+                        <td >
+                            <audio controls>
+                                <source src="images/Meade Commercial.wav" type = "audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                <div class="bodytext">
+                    <td>
+                    <div class="descriptionTitle">
+                        Honey Commercial <br><small><i>School Project - Audio editor, Sound Mixer, Script Writer, Voice Actor</i></small>
+                    </div>
+                   <!-- <div class="description">
+                    <p> This is a school project where I was tasked to choose a business to make a radio commercial for. I wrote the script used, recorded both vocal tracks, lent my voice as one of the characters, and edited and mixed it in Pro Tools.   </p>
+                    </div> -->
+                </td>
+                </div>
+            
+                </table>
+            </div>
+
+
+            <div class="audio">
+                <table width = 1280>
+                    <tr>
+                        <td >
+                            <div class="aplayer">
+                            <audio controls >
+                                <source src="images/Meade_final_realradiodoc.mp3" type = "audio/wav">
+                            </audio>
+                        </div>
+                        </td>
+                    </tr>
+                <div class="bodytext">
+                    <td>
+                    <div class="descriptionTitle">
+                        Nicky Kulay Documentary <br><small><i>School Project - Audio editor, Sound Mixer, Narrator</i></small>
+                    </div>
+                    <!--<div class="description">
+                    <p> This is a school project, where I was tasked to make a radio documentary. I chose the aspiring artist, Nicky Radford and created a 4 minute documentary about his first album Petrichoric. For this project I interviewed Nicky and some others, recorded all the audio, and edited and mixed it in Protools and Adobe Audition. </p>
+                    </div>-->
+                </td>
+                </div>
+                </table>
+            </div>
+
+            <script> 
+              
+                window.onscroll = function() {myFunction()};
+    
+          
+                var navBar = document.getElementById("navbar");
+    
+    
+             
+                var sticky = navbar.offsetTop;
+    
+          
+                function myFunction() {
+                    if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky")
+                    } else {
+                        navbar.classList.remove("sticky");
+                    }
+                }
+    
+                
+    
+            </script>
+            </body>
+    </html> 

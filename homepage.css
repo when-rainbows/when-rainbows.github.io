@@ -70,6 +70,10 @@ body {
     position: relative;
 }
 
+.portDiv li a {
+    padding: 22px 2px
+}
+
 .dropdown ul li {
     padding-bottom: 5px;
 }
@@ -199,7 +203,9 @@ td {
     padding-bottom: 30px;
 }
 
-
+.endOfPage {
+    padding-bottom: 20px;
+}
 
 /* conatact page */ 
 
