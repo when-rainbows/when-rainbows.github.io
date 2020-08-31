@@ -7,93 +7,255 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1 {font-family: "Montserrat", sans-serif}
-img {margin-bottom: -7px}
-.w3-row-padding img {margin-bottom: 12px}
+    body,
+    h1 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    img {
+        margin-bottom: -7px
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
 </style>
+
 <body>
 
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
-    <i class="fa fa-remove"></i>
-  </a>
-  <div class="w3-bar-block w3-center">
-    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
-    <a href="portfolio_design.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Design</a>
-    <a href="portfolio_design.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Video editing</a>
-    <a href="portfolio_design.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photography</a>
-    <a href="portfolio_design.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Art</a>
-    
-  </div>
-</nav>
+    <!-- Sidebar -->
+    <nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()"
+            class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="w3-bar-block w3-center">
+            <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+            <a href="portfolio_design.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Design</a>
+            <a href="portfolio_design.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Video editing</a>
+            <a href="portfolio_design.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photography</a>
+            <a href="portfolio_design.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Art</a>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
+        </div>
+    </nav>
 
-<!-- Header -->
-<div class="w3-opacity">
-<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
-<div class="w3-clear"></div>
-<header class="w3-center w3-margin-bottom">
-  <h1><b>PORTFOLIO</b></h1>
-  <p><b>Design - Youtube Thumbnails, logos, and characters 
-  </b></p>
-  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
-</header>
-</div>
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width:1500px">
 
-<!-- Photo Grid -->
+        <!-- Header -->
+        <div class="w3-opacity">
+            <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <div class="w3-clear"></div>
+            <header class="w3-center w3-margin-bottom">
+                <h1><b>PORTFOLIO</b></h1>
+                <p><b>Video Editing -
+                    </b></p>
 
-<div class="w3-row" id="myGrid" style="margin-bottom:128px">
-  <div class="w3-third">
-    <iframe width="100%"     src="https://www.youtube.com/embed/vDrpU68RzKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-  </div>
+            </header>
+        </div>
 
-  <div class="w3-third">
-    <iframe  width="100%"  src="https://www.youtube.com/embed/vDrpU68RzKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+        <!-- Photo Grid -->
 
-  <div class="w3-third">
-    <iframe width="100"  src="https://www.youtube.com/embed/vDrpU68RzKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-</div>
+        <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+            <div class="video">
+                <table width="1280" style="padding-top: 0px;">
+                    <tr>
+                        <td>
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/vDrpU68RzKU"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </td>
+                    </tr>
+                    <div class="bodytext">
+
+                        <td scope="col">
+                            <div class="descriptionTitle">
+                               <h1> SUNY Oswego Holiday Special <br><small><i>Co-Editor, Location Sound Recordist for
+                                        Meshugganah Zone (42:34)</i></small></h1>
+
+
+                            </div>
+                            <!---<div class="description">
+        <p> The Holiday special was made by a team of over 40 students from the School of Communication, Media and the Arts at SUNY Oswego. I was a co-editor for the special and my main contribution is to the "Meshuganah Zone" skit where I recorded sound for the scenes and edited the skit together.   </p>
+        </div> -->
+                        </td>
+
+                    </div>
+                </table>
+            </div>
+
+
+            <div class="video">
+                <div class="b4">
+                    <table width="1280">
+                        <tr>
+                            <td>
+                                <iframe width="1280" height="720" src="https://www.youtube.com/embed/EIJR_TDlkBM"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </td>
+                        </tr>
+                        <div class="bodytext">
+                            <td>
+                                <div class="descriptionTitle">
+                                  <h1>  B4 by Nicky Kulay <br><small><i>Director, Editor, Camera Man</i></small></h1>
+                                </div>
+                                <!--
+            <div class="description">
+            <p> This is a music video that was entirely produced and directed by myself. This video was produced for an aspiring artist, Nicky Radford whose capstone included producing an entire album. This music video was featured on his album Geminitis.  </p>
+            </div>
+        -->
+                            </td>
+                        </div>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="video">
+                <table width="1280">
+                    <tr>
+                        <td>
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/QCqv72u2Oq8"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </td>
+                    </tr>
+                    <div class="bodytext">
+                        <td>
+                            <div class="descriptionTitle">
+                               <h1> Beechwood <br><small><i>Video Editor, Camera Man, Guitarist</i></small></h1>
+                            </div>
+                            <!--
+    <div class="description">
+    <p> Beechwood is a personal project that I created with Jared Joslin. I did all the camera work, editing and provided the guitar recording that served as the background music.  </p>
+    </div> -->
+                        </td>
+                    </div>
+                </table>
+            </div>
+
+            <div class="video">
+                <table width="1280">
+                    <tr>
+                        <td>
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/dx0LOrmkbYo"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </td>
+                    </tr>
+                    <div class="bodytext">
+                        <td>
+                            <div class="descriptionTitle">
+                                <a href="https://www.youtube.com/channel/UC1qCLXyAXjx92uVlEERkMuQ" target="_Blank">
+                                  <h1>  Taechichu - YouTube Channel</a> <br><small><i>Video Editor, Graphic
+                                        Designer</i></small> </h1>
+                            </div>
+                            <!-- <div class="description">
+        <p> I assist the YouTuber Taechichu in editing videos and designing thumbnails for her channel. The link below is to her YouTube channel.  </p> 
+        <a href = "https://www.youtube.com/channel/UC1qCLXyAXjx92uVlEERkMuQ" target="_Blank"> Taechichu</a>
+        </div> -->
+                    </div>
+                    </td>
+                </table>
+            </div>
+
+            <div class="video">
+                <table width="1280">
+                    <tr>
+                        <td>
+                            <img src="images/floralgardens.jpg" width="1280" height="720">
+                        </td>
+                    </tr>
+                    <div class="bodytext">
+                        <td>
+                            <div class="descriptionTitle">
+                              <h1>  Floral Gardens <br><small><i>School Project - Video Editor</i><br><a
+                                        href="https://drive.google.com/file/d/1ppJ56POTWqIcyNZrxtoSVPrxpm7gO5LK/view?usp=sharing"
+                                        target="_Blank"> Google Drive Link</a></small> </h1>
+                            </div>
+                            <!--
+            <div class="description">
+            <p> This is a school project done in my Junior year at SUNY Oswego where I was tasked to take footage I was given and edit it to make the best advert/informational video I could through my editing skills alone. Unfortunately I cannot embed this video on this site so below is a Google Drive link to it.  </p>
+            <a href = "https://drive.google.com/file/d/1CJ3peouLZZhpRLFmcdrx6tetYt2jPJ6M/view?usp=sharing" target="_Blank"> Floral Gardens</a>
+            
+            </div>
+        -->
+                        </td>
+                    </div>
+                </table>
+            </div>
+
+
+            <div class="video">
+                <table width="1280">
+                    <tr>
+                        <td>
+                            <img src="images/side saddle.jpg" width="1280" height="720">
+                        </td>
+                    </tr>
+
+                    <div class="bodytext">
+                        <td>
+                            <div class="descriptionTitle">
+                              <h1>  Legs for Days <br><small><i>School Project - Video Editor <br> </i><a
+                                        href="https://drive.google.com/file/d/1X4KFLao8wXI2mzKH62TU3lmCNl5nsk8i/view?usp=sharing"
+                                        target="_Blank"> Google Drive Link</a></small></h1>
+                            </div>
+                            <!--
+        <div class="description">
+        <p> This is another school project I did in my Junior year at SUNY Oswego where I was once again was taked to take footage I was given and edit it to make the best music video I could through my editing skills alone. Unfortunately I cannot embed this video on this site so below is a Google Drive link to it.  </p>
+        <a href = "https://drive.google.com/file/d/1X4KFLao8wXI2mzKH62TU3lmCNl5nsk8i/view?usp=sharing" target="_Blank"> Legs for Days</a>
+        </div> -->
+                        </td>
+                    </div>
+                </table>
+                <div class="endOfPage">
+                    <h1></h1>
+                </div>
+            </div>
+        </div>
 
 
 
-<!-- End Page Content -->
-</div>
+        <!-- End Page Content -->
+    </div>
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
- 
-<script>
-// Toggle grid padding
-function myFunction() {
-  var x = document.getElementById("myGrid");
-  if (x.className === "w3-row") {
-    x.className = "w3-row-padding";
-  } else { 
-    x.className = x.className.replace("w3-row-padding", "w3-row");
-  }
-}
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px">
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                class="w3-hover-text-green">w3.css</a></p>
+    </footer>
 
-// Open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.width = "100%";
-  document.getElementById("mySidebar").style.display = "block";
-}
+    <script>
+        // Toggle grid padding
+        function myFunction() {
+            var x = document.getElementById("myGrid");
+            if (x.className === "w3-row") {
+                x.className = "w3-row-padding";
+            } else {
+                x.className = x.className.replace("w3-row-padding", "w3-row");
+            }
+        }
 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+        // Open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.width = "100%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
 
 </body>
+
 </html>
